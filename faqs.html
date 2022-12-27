@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="styles.css" rel="stylesheet"/>
+<title>Sign-In</title>
+</head>
+<body>
+    <div id="navigation" class="container-fluid">
+        <nav class="container navbar navbar-expand-md">
+                
+            <a class="navbar-brand" href="index.html"><img src="images/lesotho.gif" width="50px" height="50px">&nbsp;&nbsp;NMDS</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#welcome">About NMDS</a>
+                        </li>
+                        
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            For students
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="apply.html">Apply for Study Loan</a>
+                            <a class="dropdown-item" href="portal.html">Student Portal</a>
+                            <a class="dropdown-item" href="priority.html">Priority Areas</a>
+                            
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="announcements.html">Announcements</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="faqs.html">FAQs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn btn-warning signBtn" href="signin.html">Sign-In</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn btn-info registerBtn" href="register.html">Register</a>
+                        </li>
+                    </ul>
+            </div>
+        </nav>
+    </div>
+    <div id="FAQs" class="pageSpace container">
+        <h1>Frequently asked questions</h1>
+        <div id="accordion" class="col-10">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <button class="btn" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      1. What information is required for an online account Registration? 
+                    </button>
+                  </h5>
+                </div>
+            
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                  <div class="card-body">
+                    <p>Online account registration is opened to existing borrowers and new applicants.
+                    To register for an online account, the new applicant or existing borrower has to provide the following information:</p>
+                    <ul>
+                        <li>First Name</li>
+                        <li>Surname</li>
+                        <li>Valid Email Address</li>
+                        <li>Phone Number</li>
+                        <li>Date of Birth</li>
+                        <li>Password for the account</li>
+                        <li>Candidates Number (for new applicants)</li>
+                        <li>Borrower's Number (for existing Borrowers)</li>
+                    </ul>
+                  </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h5 class="mb-0">
+                    <button class="btn collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        2. How can I change my email after registration?
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                  <div class="card-body">
+                    Your email address cannot be changed after a successful account registration.
+                  </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                  <h5 class="mb-0">
+                    <button class="btn collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        3. How can I change my password?
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                  <div class="card-body">
+                    To change your password:
+                    <ul>
+                        <li>
+                            Login into your account and click on your name at the top right corner of the page.
+                        </li>
+                        <li>
+                            Click on the 'Manage Profile' link to open the profile page.
+                        </li>
+                        <li>
+                            At the 'Change Password' section, enter your old password, new password, re-eter the new password and click on the change password button to change your password. 
+                        </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingFour">
+                      <h5 class="mb-0">
+                        <button class="btn collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                          4. I'm an existing borrower in a new institution. What do I do? 
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                      <div class="card-body">
+                        If you have not already amended your institution at the NMDS office, then register for an online account, add a change of institution ammendment form, download and complete it and then submit it at NMDS for the change to be effected
+                      </div>
+                    </div>
+                    
+                    <div class="card">
+                        <div class="card-header" id="headingFive">
+                          <h5 class="mb-0">
+                            <button class="btn collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                              5. Where can I find my Verification Code?  
+                            </button>
+                          </h5>
+                        </div>
+                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                          <div class="card-body">
+                            Your verification is sent to your email address after a successful account registration.Check your email messages for your verification code.
+
+                          </div>
+                        </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingSix">
+                      <h5 class="mb-0">
+                        <button class="btn collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            6. How can I resend my Verification Code?   
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+                      <div class="card-body">
+                        To resend your verification code, visit the resend code page under the verify account link. Enter your email address and click on the resend code button to resend your verification code to your email address. 
+
+                      </div>
+                    </div>
+              </div>
+            </div>
+        </div>
+        
+    </div>
+    <footer>
+        <div>
+            <ul>
+                <li><a href=""><span class="fa fa-facebook"></span></a></li>
+                <li><a href=""><span class="fa fa-twitter"></span></a></li>
+                <li><a href=""><span class="fa fa-linkedin"></span></a></li>
+            </ul>
+            <p><span class="fa fa-phone"></span>
+            2232 3842</span> | email@nmds.co.ls</p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

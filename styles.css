@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap');
+
+body {
+
+    font-family: 'Poppins', sans-serif;
+}
+/* body a:hover {
+
+} */
+.navbar .nav-item a.active
+{
+    color:#ccc;
+}
+#announcements .col{
+    border: 1px solid black;
+}  
+.box {
+    height:100vh;
+    background-image: url('images/5853.jpg');
+    background-position: center;
+    background-size:cover; 
+    filter: blur(7px);  
+}
+
+.landingPage {
+    height:100vh;
+    position:absolute;
+    left:0;
+    top:0;
+}
+.carousel-indicators {
+    height:25vh;
+}
+.carousel-inner .carousel-item {
+    height:100vh;
+}
+.carousel-item img { visibility: hidden;}
+
+#navigation li a, #navigation .navbar-brand, #navBar li a, #navBar .navbar-brand{
+    color:rgb(35, 2, 97);
+}
+.navbar-nav li a {
+    font-weight: 400;
+}
+
+#navBar, #navigation {
+    background-color: rgb(238, 234, 234);
+    border-bottom: 1px solid #ddd;
+}
+
+#welcomeHeading h4{
+color: rgb(233, 210, 7);
+}
+
+.navbar li {
+    margin-right:10px;
+}
+
+#email img{
+    width: 500px;
+    height: 400px;
+}
+#image {
+    text-align: center;
+}
+#email {
+    margin:auto;
+margin-top:40px;
+}
+
+#emailContent{
+    padding-top: 100px;
+}
+
+.carousel-caption {
+    top:280px;
+    color: rgb(18, 1, 51);
+}
+.carousel-indicators {
+    top: 500px;
+}
+
+.carousel-indicators .button{
+    background-color: black;
+}
+.carousel-indicators .active  {
+    background-color: rgb(18, 1, 51);
+}
+
+.carousel-control-prev, .carousel-control-next{
+    filter: invert(100%);
+}
+
+.navbar-brand {
+    font-weight: 600;
+}
+
+.carousel-caption h5 {
+    font-weight: 800;
+    font-size:xx-large;
+}
+
+.carousel-caption p {
+    font-weight: 600;
+}
+.slogan{
+    text-align:center;
+    position:relative;
+    top:210px;
+    color: rgb(18, 1, 51);
+    font-weight: 600;
+}
+
+.carousel-caption a {
+    font-size: smaller;
+    }
+    
+.carousel-control-next, .carousel-control-prev {
+    bottom:50px;
+}
+.carousel-caption h5{
+    color: rgb(18, 1, 51);
+}
+
+#navBar {
+    position: fixed;
+    z-index: 99;
+}
+
+#navBar li {
+    text-align: center;
+}
+
+#welcome {
+    padding-top: 90px;
+    text-align: center;
+    height:100vh;
+    background-color: rgb(238, 234, 234);
+}
+h1, h4, #announcements.row-news p{
+    font-weight: 800;
+    color: rgb(35, 2, 97)
+}
+
+#welcomeHeading {
+    width: 800px;
+}
+
+#welcomeContent {
+    width: 650px;
+  margin-top: 30px;
+  text-align: justify;
+  font-weight: 400;
+  color:rgb(121, 121, 121);
+}
+
+#registerForm {
+    margin: 80px auto;
+    width: 600px;
+}
+
+.pageSpace {
+    margin: 80px auto;
+}
+
+#announcements .card:hover, #portalOptions a:hover, .btn:hover, .navbar-brand:hover, .nav-item .nav-link:hover {
+    transform: scale(1.075);
+    transition: 0.2s ease-in;
+    cursor: pointer; 
+}
+
+.btn:hover, #navigation li a:hover, #navigation .navbar-brand:hover, #navBar li a:hover, #navBar .navbar-brand:hover{
+    color:rgb(182, 180, 180);
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 5px 16px;
+    transition: 0.3s;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+  background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+  }
+
+
+.formTab {
+    font-size:smaller;
+    font-weight: 600;
+    margin-left: 20px;;
+}
+
+.formTab .btn {
+    float:right;
+    font-size:smaller;
+}
+
+.formTab p {
+    color: red;
+}
+
+.formTab .form-group {
+    width: 500px;
+}
+
+#legalInfo {
+    margin-top:80px;
+}
+
+#appForms {
+    margin-top: 50px;
+}
+
+#portal .card {
+    border: none;
+    margin-top: 20px;
+}
+.card img {
+    width: 160px;
+    height: 160px;
+}
+#portalOptions {
+    margin-top:20px;
+    text-align: center;
+}
+.card-title {
+    font-weight: 600;
+   margin-top:8px
+}
+
+footer {
+    margin-top:60px;
+    margin-bottom:50px;
+}
+footer, footer a {
+    text-align: center;
+    color: rgb(160, 157, 157);
+}
+
+footer li {
+    list-style-type: none;
+    display: inline;
+}
+
+footer li ul {
+    margin-right:20px;
+}
+
+#accordion {
+    margin: auto;
+    margin-top: 40px;
+}
+#accordion .btn {
+border:none;
+}
+#accordion .card {
+    font-size:small;
+}
+
+#announcements .row {
+    margin-top:40px;
+}
+#news h3, #news .date, #announcements h3, #announcements .date {
+    font-weight: 800;
+    color:rgb(160, 157, 157)
+}
+
+#news .row-img, #announcements .row-img {
+    position: fixed;
+}
+#news .row-news, #announcements .row-news {
+    margin-top:60px;
+    margin-left: 400px;
+}
+
+#announcements a {
+    text-decoration: none;
+}
+#news a{
+    float:right;
+}
+#news .card, #announcements .card {
+    border: none;
+}
+
+@media (max-width: 768px){
+    .slogan {
+        font-size: 1.2rem;
+    }
+    #navBar .navbar-nav li a, #navBar .navbar-brand {
+        color:rgb(35, 2, 97);
+    }
+    #navigation, #navBar {
+        background-color: rgb(238, 234, 234);
+    }
+    #navigation li a, #navigation .navbar-brand, #navBar li a, #navBar .navbar-brand{
+        color:rgb(35, 2, 97);
+    }
+
+    #welcomeHeading {
+        width:400px;
+    }
+
+    #welcomeContent {
+        width: 450px;
+    }
+
+    #welcome {
+        height: 135vh;
+    }
+
+    .formTab .form-group {
+        width: 470px;
+    }
+    .carousel-indicators {
+        top: 480px;
+    }
+    
+    .navbar li {
+        margin-top:10px;
+    }
+    #news .row-img, #announcements .row-img {
+        display:none;
+    }
+    #news .row-news, #announcements .row-news {
+        margin-top: 20px;
+        margin-left:0px;
+    }
+}
+
+@media (max-width: 992px)
+{
+    #emailContent{
+        padding-top: 15px;
+    }
+}
+
+@media (max-width: 576px)
+{
+    .box{
+        height:110vh;
+    }
+    #email img{
+        width: 350px;
+        height: 200px;
+    }
+    .slogan {
+        top: 170px;
+    }
+
+    .formTab .form-group {
+        width: 350px;
+    }
+
+    .carousel-indicators {
+        top: 510px;
+    }
+    .carousel-caption{
+        top:200px
+    }
+    .carousel-control-next, .carousel-control-prev {
+        bottom:70px;
+    }
+}
