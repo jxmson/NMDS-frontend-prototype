@@ -1,8 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&family=Roboto:wght@400;500&display=swap');
 body {
 
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', serif;
+  
+}
+body h1 {
+    font-family: 'Poppins', serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.fade-i{
+    animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;       
+    }    
+    to {
+        opacity: 1;
+    }
 }
 /* body a:hover {
 
@@ -104,6 +122,7 @@ margin-top:40px;
     font-weight: 600;
 }
 .slogan{
+    font-family: 'Poppins', serif;
     text-align:center;
     position:relative;
     top:210px;
@@ -118,7 +137,7 @@ margin-top:40px;
 .carousel-control-next, .carousel-control-prev {
     bottom:50px;
 }
-.carousel-caption h5{
+.carousel-caption h1{
     color: rgb(18, 1, 51);
 }
 
@@ -137,6 +156,7 @@ margin-top:40px;
     height:100vh;
     background-color: rgb(238, 234, 234);
 }
+
 h1, h4, #announcements.row-news p{
     font-weight: 800;
     color: rgb(35, 2, 97)
@@ -210,10 +230,10 @@ h1, h4, #announcements.row-news p{
   }
 
 
-.formTab {
+form {
     font-size:smaller;
     font-weight: 600;
-    margin-left: 20px;;
+    margin-left: 20px;
 }
 
 .formTab .btn {
@@ -225,7 +245,7 @@ h1, h4, #announcements.row-news p{
     color: red;
 }
 
-.formTab .form-group {
+.form-group {
     width: 500px;
 }
 
@@ -274,7 +294,7 @@ footer li ul {
 
 #accordion {
     margin: auto;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 #accordion .btn {
 border:none;
@@ -284,7 +304,7 @@ border:none;
 }
 
 #announcements .row {
-    margin-top:40px;
+    margin-top:50px;
 }
 #news h3, #news .date, #announcements h3, #announcements .date {
     font-weight: 800;
@@ -295,21 +315,46 @@ border:none;
     position: fixed;
 }
 #news .row-news, #announcements .row-news {
-    margin-top:60px;
+    margin-top:50px;
     margin-left: 400px;
 }
 
 #announcements a {
     text-decoration: none;
 }
-#news a{
+.right{
     float:right;
 }
 #news .card, #announcements .card {
     border: none;
 }
+#priorityTable {
+    text-align: center;
+    margin-top:50px;
+}
+
+#priorityTable h5 {
+    text-decoration:underline;
+}
+.table-bordered {
+    border: 1px solid rgb(80, 79, 79);
+}
+#accomodation img {
+    width: 45vw;
+    height:60vh;
+}
+
+#accHeader {
+    margin-top:70px;
+}
 
 @media (max-width: 768px){
+    #announcements .card:hover, #portalOptions a:hover, .btn:hover, .navbar-brand:hover, .nav-item .nav-link:hover {
+        transform:none;
+        transition:none;
+        cursor: pointer; 
+    }
+
     .slogan {
         font-size: 1.2rem;
     }
@@ -335,8 +380,8 @@ border:none;
         height: 135vh;
     }
 
-    .formTab .form-group {
-        width: 470px;
+    .form-group {
+        width: 350px;
     }
     .carousel-indicators {
         top: 480px;
@@ -352,6 +397,10 @@ border:none;
         margin-top: 20px;
         margin-left:0px;
     }
+    
+    #applyForm {
+        margin: 10px auto;
+    }
 }
 
 @media (max-width: 992px)
@@ -359,10 +408,20 @@ border:none;
     #emailContent{
         padding-top: 15px;
     }
+    
+    #accomodation img {
+        display:none;
+    }
+    #accomodationInfo {
+        width:100vw;
+    }
 }
 
 @media (max-width: 576px)
 {
+    #welcomeContent {
+        width: 400px;
+    }
     .box{
         height:110vh;
     }
@@ -374,10 +433,6 @@ border:none;
         top: 170px;
     }
 
-    .formTab .form-group {
-        width: 350px;
-    }
-
     .carousel-indicators {
         top: 510px;
     }
@@ -387,4 +442,9 @@ border:none;
     .carousel-control-next, .carousel-control-prev {
         bottom:70px;
     }
+    #priorityTable {
+        font-size:x-small;
+    }
+    
+   
 }
