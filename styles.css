@@ -154,7 +154,7 @@ margin-top:30px;
     padding-top: 90px;
     padding-bottom:30px;
     text-align: center;
-    /* height:100vh; */
+    height:100vh;
     background-color: rgb(238, 234, 234);
 }
 
@@ -163,12 +163,13 @@ h1, h4, #announcements.row-news p{
     color: rgb(35, 2, 97)
 }
 
-/* #welcomeHeading {
+#welcomeHeading {
+    margin: auto;
     width: 800px;
-} */
+}
 
 #welcomeContent {
-    /* width: 650px; */
+    width: 650px;
   margin-top: 30px;
   text-align: justify;
   font-weight: 400;
@@ -400,17 +401,17 @@ border:none;
         color:rgb(35, 2, 97);
     }
 
-    /* #welcomeHeading {
+    #welcomeHeading {
         width:400px;
     }
 
     #welcomeContent {
-        width: 450px;
+        width: 400px;
     }
 
     #welcome {
-        height: 135vh;
-    } */
+        height: 130vh;
+    }
 
     .form-group {
         width: 350px;
