@@ -353,9 +353,13 @@ border:none;
 
 @media (max-width: 576px)
 {
-    /* #welcomeContent {
-        width: 100px;
-    } */
+    #welcomeHeading {
+        width:200px;
+    }
+
+    #welcomeContent {
+        width: 200px;
+    }
 
     #email img{
         width: 350px;
