@@ -374,6 +374,10 @@ border:none;
     .carousel-control-next, .carousel-control-prev {
         bottom:70px;
     }
+
+    .front {
+        margin-top:30px;
+    }
     #priorityTable {
         font-size:x-small;
     }
