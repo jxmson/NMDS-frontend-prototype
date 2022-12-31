@@ -153,7 +153,7 @@ margin-top:40px;
 #welcome {
     padding-top: 90px;
     text-align: center;
-    height:100vh;
+    /* height:100vh; */
     background-color: rgb(238, 234, 234);
 }
 
@@ -162,17 +162,17 @@ h1, h4, #announcements.row-news p{
     color: rgb(35, 2, 97)
 }
 
-#welcomeHeading {
+/* #welcomeHeading {
     width: 800px;
-}
+} */
 
 #welcomeContent {
-    width: 650px;
+    /* width: 650px; */
   margin-top: 30px;
   text-align: justify;
   font-weight: 400;
   color:rgb(121, 121, 121);
-}
+} 
 
 #registerForm {
     margin: 80px auto;
@@ -348,6 +348,37 @@ border:none;
     margin-top:70px;
 }
 
+
+@media (max-width: 576px)
+{
+    /* #welcomeContent {
+        width: 100px;
+    } */
+
+    #email img{
+        width: 350px;
+        height: 200px;
+    }
+    .slogan {
+        top: 170px;
+    }
+
+    .carousel-indicators {
+        top: 510px;
+    }
+    .carousel-caption{
+        top:200px
+    }
+    .carousel-control-next, .carousel-control-prev {
+        bottom:70px;
+    }
+    #priorityTable {
+        font-size:x-small;
+    }
+    
+   
+}
+
 @media (max-width: 768px){
     #announcements .card:hover, #portalOptions a:hover, .btn:hover, .navbar-brand:hover, .nav-item .nav-link:hover {
         transform:none;
@@ -368,7 +399,7 @@ border:none;
         color:rgb(35, 2, 97);
     }
 
-    #welcomeHeading {
+    /* #welcomeHeading {
         width:400px;
     }
 
@@ -378,7 +409,7 @@ border:none;
 
     #welcome {
         height: 135vh;
-    }
+    } */
 
     .form-group {
         width: 350px;
@@ -417,34 +448,3 @@ border:none;
     }
 }
 
-@media (max-width: 576px)
-{
-    #welcomeContent {
-        width: 400px;
-    }
-    .box{
-        height:110vh;
-    }
-    #email img{
-        width: 350px;
-        height: 200px;
-    }
-    .slogan {
-        top: 170px;
-    }
-
-    .carousel-indicators {
-        top: 510px;
-    }
-    .carousel-caption{
-        top:200px
-    }
-    .carousel-control-next, .carousel-control-prev {
-        bottom:70px;
-    }
-    #priorityTable {
-        font-size:x-small;
-    }
-    
-   
-}
