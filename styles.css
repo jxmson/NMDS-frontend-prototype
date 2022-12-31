@@ -4,7 +4,7 @@ body {
     font-family: 'Roboto', serif;
   
 }
-body h1 {
+body h1, .carousel-caption p {
     font-family: 'Poppins', serif;
 }
 html{
@@ -41,16 +41,16 @@ html{
 }
 
 .landingPage {
-    height:100vh;
+    /* height:100vh; */
     position:absolute;
     left:0;
     top:0;
 }
-.carousel-indicators {
-    height:25vh;
-}
+/* .carousel-indicators {
+    height:600px;
+} */
 .carousel-inner .carousel-item {
-    height:100vh;
+    height:600px;
 }
 .carousel-item img { visibility: hidden;}
 
@@ -83,11 +83,11 @@ color: rgb(233, 210, 7);
 }
 #email {
     margin:auto;
-margin-top:40px;
+margin-top:30px;
 }
 
 #emailContent{
-    padding-top: 100px;
+    padding-top: 90px;
 }
 
 .carousel-caption {
@@ -152,6 +152,7 @@ margin-top:40px;
 
 #welcome {
     padding-top: 90px;
+    padding-bottom:30px;
     text-align: center;
     /* height:100vh; */
     background-color: rgb(238, 234, 234);
