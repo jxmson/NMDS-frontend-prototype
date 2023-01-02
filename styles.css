@@ -353,12 +353,20 @@ border:none;
 
 @media (max-width: 576px)
 {
+    #welcome {
+        padding-top: 90px;
+        padding-bottom:30px;
+        height:80vh;
+    }
     #welcomeHeading {
-        width:200px;
+        width:330px;
+        border: solid black;
     }
 
     #welcomeContent {
-        width: 200px;
+        width: 330px;
+        border: solid black;
+        font-size:small;
     }
 
     #email img{
