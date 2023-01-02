@@ -75,7 +75,7 @@ color: rgb(233, 210, 7);
 }
 
 #email img{
-    width: 500px;
+    width: 470px;
     height: 400px;
 }
 #image {
@@ -349,54 +349,29 @@ border:none;
 #accHeader {
     margin-top:70px;
 }
-
-
-@media (max-width: 600px)
+/* #email, #welcome, .landingPage, .box {
+    border: 1px solid black;
+} */
+@media (max-width: 992px)
 {
-    /* #welcome {
-        padding-top: 70px;
+    #emailContent{
+        padding-top: 15px;
+    }
     
-        font-size:small;
+    #accomodation img {
+        display:none;
     }
-    #welcomeHeading {
-        width:330px;
-        border: solid black;
+    #accomodationInfo {
+        width:100vw;
     }
-
-    #welcomeContent {
-        width: 330px;
-        border: solid black;
-        } */
+}
+@media (max-width: 768px){
 
     #email img{
         width: 350px;
         height: 200px;
     }
-    .slogan {
-        top: 150px;
-    }
 
-    .carousel-indicators {
-        top: 510px;
-    }
-    .carousel-caption{
-        top:200px
-    }
-    .carousel-control-next, .carousel-control-prev {
-        bottom:70px;
-    }
-
-    .front {
-        margin-top:60px;
-    }
-    #priorityTable {
-        font-size:x-small;
-    }
-    
-   
-}
-
-@media (max-width: 768px){
     #announcements .card:hover, #portalOptions a:hover, .btn:hover, .navbar-brand:hover, .nav-item .nav-link:hover {
         transform:none;
         transition:none;
@@ -417,15 +392,15 @@ border:none;
     }
 
     #welcomeHeading {
-        width:400px;
+        width:350px;
     }
 
     #welcomeContent {
-        width: 400px;
+        width: 350px;
     }
 
     #welcome {
-        height: 130vh;
+        height: 140vh;
     }
 
     .form-group {
@@ -451,17 +426,45 @@ border:none;
     }
 }
 
-@media (max-width: 992px)
-{
-    #emailContent{
-        padding-top: 15px;
+
+@media (max-width: 600px)
+{  
+    #welcomeHeading {
+        width:350px;
+    }
+    #welcomeContent {
+        width: 350px;
+    }
+    #welcome {   
+        height: 135vh;
+    }
+    #email img{
+        width: 350px;
+        height: 200px;
+    }
+    .slogan {
+        top: 150px;
+    }
+
+    .carousel-indicators {
+        top: 510px;
+    }
+    .carousel-caption{
+        top:200px
+    }
+    .carousel-control-next, .carousel-control-prev {
+        bottom:70px;
+    }
+
+    .front {
+        margin-top:40px;
+    }
+    #priorityTable {
+        font-size:x-small;
     }
     
-    #accomodation img {
-        display:none;
-    }
-    #accomodationInfo {
-        width:100vw;
-    }
+   
 }
+
+
 
