@@ -255,7 +255,7 @@ form {
     margin-top:80px;
 }
 
-#appForms {
+#appForms, #announcements .row{
     margin-top: 50px;
 }
 
@@ -305,9 +305,7 @@ border:none;
     font-size:small;
 }
 
-#announcements .row {
-    margin-top:50px;
-}
+
 #news h3, #news .date, #announcements h3, #announcements .date {
     font-weight: 800;
     color:rgb(160, 157, 157)
@@ -330,7 +328,7 @@ border:none;
 #news .card, #announcements .card {
     border: none;
 }
-#priorityTable {
+#priorityTable, #appTable {
     text-align: center;
     margin-top:50px;
 }
@@ -424,6 +422,9 @@ border:none;
     #applyForm {
         margin: 10px auto;
     }
+    #appTable {
+        font-size:small;
+    }
 }
 
 
@@ -459,17 +460,10 @@ border:none;
     .front {
         margin-top:40px;
     }
-    #priorityTable {
+    #priorityTable, #appTable {
         font-size:x-small;
     }
-    
+
    
 }
-@media (max-width: 200px)
-{  
-    #welcome {   
-        height: 100vh;
-    }
-}
-
 
