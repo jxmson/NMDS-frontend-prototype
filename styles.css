@@ -37,7 +37,7 @@ html{
     background-image: url('images/5853.jpg');
     background-position: center;
     background-size:cover; 
-    filter: blur(7px);  
+    filter: blur(8px);  
 }
 
 .landingPage {
@@ -130,10 +130,10 @@ margin-top:30px;
     font-weight: 600;
 }
 
-.carousel-caption a {
-    font-size: smaller;
-    }
-    
+carousel-caption a:hover {
+    background-color: rgb(212, 192, 9);
+}    
+     
 .carousel-control-next, .carousel-control-prev {
     bottom:50px;
 }
@@ -185,7 +185,7 @@ h1, h4, #announcements.row-news p{
     margin: 80px auto;
 }
 
-#announcements .card:hover, #portalOptions a:hover, .btn:hover, .navbar-brand:hover, .nav-item .nav-link:hover {
+#announcements .card:hover, #portalOptions a:hover, .btn:hover, .navbar-brand:hover, .nav-item .nav-link:hover, .carousel-caption a:hover, #email a:hover {
     transform: scale(1.075);
     transition: 0.2s ease-in;
     cursor: pointer; 
@@ -366,7 +366,7 @@ border:none;
         height: 200px;
     }
     .slogan {
-        top: 170px;
+        top: 150px;
     }
 
     .carousel-indicators {
@@ -380,7 +380,7 @@ border:none;
     }
 
     .front {
-        margin-top:30px;
+        margin-top:60px;
     }
     #priorityTable {
         font-size:x-small;
