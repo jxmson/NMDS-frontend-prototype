@@ -465,7 +465,7 @@ border:none;
     
    
 }
-@media (max-width: 400px)
+@media (max-width: 200px)
 {  
     #welcome {   
         height: 100vh;
