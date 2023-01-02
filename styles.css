@@ -351,12 +351,12 @@ border:none;
 }
 
 
-@media (max-width: 576px)
+@media (max-width: 600px)
 {
     #welcome {
-        padding-top: 90px;
-        padding-bottom:30px;
-        height:80vh;
+        padding-top: 70px;
+    
+        font-size:small;
     }
     #welcomeHeading {
         width:330px;
@@ -366,8 +366,7 @@ border:none;
     #welcomeContent {
         width: 330px;
         border: solid black;
-        font-size:small;
-    }
+        }
 
     #email img{
         width: 350px;
